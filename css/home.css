@@ -1,0 +1,40 @@
+.hero {
+  background: linear-gradient(to right, #8b4513, #d2691e);
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.collections h2,
+.featured h2 {
+  text-align: center;
+  margin: 3rem 0 2rem;
+  color: #8b4513;
+  font-size: 2rem;
+}
+
+.collections .grid,
+.featured .grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+.collections, .featured{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceyora - Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+  <header id="navbar"></header>
+
+  <main>
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div>
+    <p>Total: <span id="cart-total">Rs. 0</span></p>
+    <button onclick="proceedToPayment()">Proceed to Payment</button>
+
+    <section id="payment-section" class="hidden">
+      <h2>Payment Options</h2>
+      <button onclick="processPayment('cod')">💵 Cash on Delivery</button>
+      <button onclick="processPayment('card')">💳 Credit/Debit Card</button>
+      <button onclick="processPayment('paypal')">🌐 PayPal</button>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

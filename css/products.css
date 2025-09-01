@@ -1,0 +1,36 @@
+main {
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #8B4513;
+  font-size: 2rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filters button {
+  background: #eee;
+  color: #333;
+  border-radius: 6px;
+}
+
+.filters button:hover {
+  background: #D2691E;
+  color: white;
+}
+
+#products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
