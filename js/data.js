@@ -22,7 +22,6 @@ const products = [
     price: 3300,
     category: "masks",
     image: "assets/images/Naga-Raksha-mask.jpg",
-    featured: true,
     description: "Handmade traditional devil mask made of wood, Naga Raksha mask,  to fight off bad spirits."
   },
   {
@@ -41,25 +40,7 @@ const products = [
     image: "assets/images/Mudali-kolam-mask.jpg",
     description: "The Mudali Kolam mask, hand-carved from balsa wood and colored with rubber paint, is a traditional masked folk theatre item in Sri Lankan folk dances and rituals."
   },
-  {
-    id: 9,
-    name: "Traditional Necklace Set",
-    price: 25000,
-    category: "jewelry",
-    image: "assets/images/traditional-necklace.jpg",
-    featured: true,
-    description: "Intricate necklace set handcrafted with traditional Sri Lankan designs."
-  },
-  {
-    id: 13,
-    name: "Handwoven Basket",
-    price: 3500,
-    category: "cane",
-    image: "assets/images/handwoven-basket.jpg",
-    featured: true,
-    description: "Durable handwoven basket made from natural cane materials."
-  },
-  {
+      {
     id: 14,
     name: "Couple Matching Batik Set",
     price: 10540,
@@ -88,7 +69,7 @@ const products = [
     name: "Handmade Cotton Batik Saree",
     price: 5690,
     category: "clothes",
-    image: "assets/images/Sri Lankan Handmade Cotton Batik Saree.jpg",
+    image: "assets/images/Sri-Lankan-Handmade-Cotton-Batik-Saree.jpg",
     description: "This saree is made of cotton super voile fabric, which is lightweight and assures the wearer a perfect fit and comfort."
   },
   {
@@ -99,4 +80,71 @@ const products = [
     image: "assets/images/Sleeveless-Maxi-Dress.jpg",
     description: "Maxi dress with a bold sunburst design radiating from the centre."
   },
+  {
+    id: 19,
+    name: "Coco Blossom Pendant ",
+    price: 1200,
+    category: "jewellery",
+    image: "assets/images/Coco-Blossom-Pendant .jpg",
+    description: "Handmade in Sri Lanka, this eco-friendly pendant is crafted from natural coconut shell and features a delicate carved blossom design."
+  },
+  {
+    id: 20,
+    name: "Coco Elegance Jewellery Set",
+    price: 2000,
+    category: "jewellery",
+    image: "assets/images/Coco-Elegance-Jewellery-Set.jpg",
+    description: "Handcrafted from natural coconut shell, this necklace and earring set features a timeless island design."
+  },
+{
+    id: 21,
+    name: "Coco Wood Harmony Bangles",
+    price: 1100,
+    category: "jewellery",
+    image: "assets/images/Coco-Wood-Harmony-Bangles.jpg",
+    description: "Handcrafted in Sri Lanka, these bold wooden bangles showcase natural grain patterns and unique geometric designs."
+  },
+{
+    id: 22,
+    name: "Island Star Coconut Earrings",
+    price: 1600,
+    category: "jewellery",
+    image: "assets/images/Island-Star-Coconut-Earrings.jpg",
+    description: "Handmade in Sri Lanka, these statement earrings feature polished coconut shell discs carved with a star motif, accented with natural beads and dangling bamboo and shell pieces."
+  },
+{
+    id: 23,
+    name: "Ocean Breeze Coconut Jewellery Set",
+    price: 2000,
+    category: "jewellery",
+    featured: true,
+    image: "assets/images/Ocean-Breeze-Coconut-Jewellery-Set.jpg",
+    description: "Handcrafted in Sri Lanka, this set features coconut shell discs with turquoise accents and an ocean-inspired pendant."
+  },
+{
+    id: 24,
+    name: "Elegant Handcrafted Cane Sofa Set",
+    price: 47000,
+    category: "cane",
+    image: "assets/images/Elegant-Handcrafted-Cane-Sofa-Set.jpg",
+    featured: true,
+    description: "Bring natural charm and timeless elegance to your living space."
+  },
+{
+    id: 25,
+    name: "Handwoven Rattan Storage Baket with Lid",
+    price: 4500,
+    category: "cane",
+    image: "assets/images/Handwoven-Rattan-Storage-Basket.jpg",
+    description: "Perfect for organizing essentials or as a stylish decorative piece for your home."
+  },
+{
+    id: 26,
+    name: "Rustic Handwoven Rattan Pot Basket with Lid",
+    price: 5000,
+    category: "cane",
+    image: "assets/images/Rustic-Handwoven-Rattan-Pot-Basket-with-Lid.jpg",
+    description: " Its pot-shaped design makes it perfect for storing dry goods, organizing essentials, or adding a decorative touch to any room."
+  },
+
 ];
