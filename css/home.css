@@ -3,7 +3,25 @@
   color: white;
   padding: 6rem 2rem;
   text-align: center;
+  
+
+
+  background-image: url("../assets/images/background-img.jpg"); 
+  background-size: cover;     
+  background-position: center;  
+  background-repeat: no-repeat; 
+  min-height: 95vh;
+  width: auto;        
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;                 
+  padding: 20px;
 }
+
+
 
 .hero h1 {
   font-size: 3rem;
@@ -11,9 +29,10 @@
 }
 
 .hero p {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-bottom: 2rem;
   opacity: 0.9;
+  font-weight: 600;
 }
 
 .collections h2,
@@ -31,6 +50,15 @@
 
 a.btn {
   text-decoration: none;
+  background: linear-gradient(to right, #8b4513, #d2691e);
+  font-weight: 600;
+  font-size: large;
+}
+
+a.btn:hover {
+  background: linear-gradient(to right, #d2691e, #8b4513); 
+  transform: scale(1.05); 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3); 
 }
 
 .collections, .featured{

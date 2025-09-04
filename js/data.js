@@ -1,20 +1,20 @@
 const products = [
   {
     id: 1,
-    name: "Traditional Kandyan Saree",
-    price: 15000,
+    name: "Batik Maxi Dress",
+    price: 7699,
     category: "clothes",
-    image: "images/products/kandyan-saree.jpg",
+    image: "assets/images/Batik-Maxi-Dress.jpg",
     featured: true,
-    description: "Elegant Kandyan saree made with authentic Sri Lankan craftsmanship."
+    description: "Made using traditional wax-resist techniques, this dress is a unique work of art."
   },
   {
     id: 2,
-    name: "Men's National Dress",
-    price: 12000,
+    name: "Batik Sarong Set",
+    price: 7500,
     category: "clothes",
-    image: "images/products/mens-national-dress.jpg",
-    description: "Classic national attire for men, perfect for traditional events."
+    image: "assets/images/Batik-Sarong-Set.jpg",
+    description: "Stylish cotton batik men's shirt and sarong set with traditional Sri Lankan colours and designs."
   },
   {
     id: 5,
@@ -23,7 +23,7 @@ const products = [
     category: "masks",
     image: "assets/images/Naga-Raksha-mask.jpg",
     featured: true,
-    description: "Handmade traditional devil mask made of wood  Naga Raksha mask,  to fight off bad spirits."
+    description: "Handmade traditional devil mask made of wood, Naga Raksha mask,  to fight off bad spirits."
   },
   {
     id: 6,
@@ -46,7 +46,7 @@ const products = [
     name: "Traditional Necklace Set",
     price: 25000,
     category: "jewelry",
-    image: "images/products/traditional-necklace.jpg",
+    image: "assets/images/traditional-necklace.jpg",
     featured: true,
     description: "Intricate necklace set handcrafted with traditional Sri Lankan designs."
   },
@@ -55,8 +55,48 @@ const products = [
     name: "Handwoven Basket",
     price: 3500,
     category: "cane",
-    image: "images/products/handwoven-basket.jpg",
+    image: "assets/images/handwoven-basket.jpg",
     featured: true,
     description: "Durable handwoven basket made from natural cane materials."
+  },
+  {
+    id: 14,
+    name: "Couple Matching Batik Set",
+    price: 10540,
+    category: "clothes",
+    image: "assets/images/Couple-Matching-Batik-Set.jpg",
+    description: "Couple's matching outfit in soft pink tie-dye, featuring a men's button-up shirt with sarong and a women's croptop with flowing maxi skirt."
+  },
+  {
+    id: 15,
+    name: "Matching Family Outfit Set",
+    price: 15000,
+    category: "clothes",
+    image: "assets/images/Matching-Family-Outfit-Set.jpg",
+    description: "Matching Family outfit set with a white base and bold yellow and black leaf prints. Includes coordinated sarongs, skirts, and tops."
+  },
+  {
+    id: 16,
+    name: "Modern Handcrafted Batik Saree",
+    price: 5690,
+    category: "clothes",
+    image: "assets/images/Modern-Handcrafted-Batik-Saree.jpg",
+    description: "This saree is made of cotton super voile fabric, which is lightweight and assures the wearer a perfect fit and comfort."
+  },
+  {
+    id: 17,
+    name: "Handmade Cotton Batik Saree",
+    price: 5690,
+    category: "clothes",
+    image: "assets/images/Sri Lankan Handmade Cotton Batik Saree.jpg",
+    description: "This saree is made of cotton super voile fabric, which is lightweight and assures the wearer a perfect fit and comfort."
+  },
+  {
+    id: 18,
+    name: "Sleeveless Maxi Dress",
+    price: 8990,
+    category: "clothes",
+    image: "assets/images/Sleeveless-Maxi-Dress.jpg",
+    description: "Maxi dress with a bold sunburst design radiating from the centre."
   },
 ];

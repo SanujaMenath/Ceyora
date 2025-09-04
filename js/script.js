@@ -59,7 +59,7 @@ function toggleMenu() {
 // Footer
 function loadFooter() {
   document.getElementById("footer").innerHTML = `
-    <p>&copy; 2024 Ceylon Heritage. All rights reserved.</p>`;
+    <p>&copy; 2024 Ceyora. All rights reserved.</p>`;
 }
 
 // Cart Functions
