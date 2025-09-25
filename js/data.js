@@ -132,7 +132,7 @@ const products = [
   },
 {
     id: 25,
-    name: "Handwoven Rattan Storage Baket with Lid",
+    name: "Handwoven Rattan Storage Basket with Lid",
     price: 4500,
     category: "cane",
     image: "assets/images/Handwoven-Rattan-Storage-Basket.jpg",
